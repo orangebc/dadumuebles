@@ -1,0 +1,678 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 14px 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+li{
+	margin: 0px 0px 12px 0px;
+	cursor:pointer;
+	}
+a:link,a:active,a:visited,a:hover{font-family: 'Halant', serif;color: #CBB59E;text-decoration: none;}
+.b_menu{
+	   background: transparent; 
+	   border: none !important;
+	   font-family: 'Halant', serif;
+	   color: #CBB59E;
+	   font-size: 1em;
+	   cursor:pointer;
+      }
+#cerrar_catalogo{
+	   display:none;
+	   background: transparent; 
+	   border: none !important;
+	   font-family: 'Halant', serif;
+	   color: #CBB59E;
+	   font-size: 1em;
+	   cursor:pointer;
+      }
+	  
+#vermenu_catalogo{
+	   background: transparent; 
+	   border: none !important;
+	   font-family: 'Halant', serif;
+	   color: #CBB59E;
+	   font-size: 1em;
+	   cursor:pointer;
+      }
+#cerrar_catalogo_res{
+	   display:none;
+	   background: transparent; 
+	   border: none !important;
+	   font-family: 'Halant', serif;
+	   color: #CBB59E;
+	   font-size: 1em;
+	   cursor:pointer;
+	   z-index::9999;
+      }
+	  
+#vermenu_catalogo_res{
+	   background: transparent; 
+	   border: none !important;
+	   font-family: 'Halant', serif;
+	   color: #CBB59E;
+	   font-size: 1em;
+	   cursor:pointer;
+	    z-index::9999;
+      }
+@media only screen and (max-width: 2560px) {
+#header {
+	height: 150px;
+	width: 100%;
+	float: left;
+	background-image: url(images/fondocafe.png);
+	background-repeat: repeat-x;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	position: fixed;
+	z-index: 9999;
+}
+#nav {
+	float: none;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#nav2 {
+	float: none;
+	height: auto;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	display: none;
+}
+.logo{
+	float: left;
+	height: auto;
+	width: 11%;
+        margin-left: 20px;
+}
+.botones {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 16%;
+	height: 18px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	line-height: 1em;
+	font-weight: 300;
+}
+.botonesinv {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 2%;
+	height: 18px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	line-height: 1em;
+	font-weight: 300;
+}
+footer {
+	height: auto;
+	width: 100%;
+	float: left;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+.telefono{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 17%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO2.fw.png);
+	background-repeat: repeat;
+}
+.domicilio{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 55%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+.facebook {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 12%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO2.fw.png);
+	background-repeat: repeat;
+}
+.mail {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 16%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+.orange {
+	font-family: 'Roboto', sans-serif;
+	color: #453525;
+	font-size: 0.9em;
+	float: none;
+	height: auto;
+	width: 30%;
+	padding-top: 60px;
+	text-align: center;
+	margin-left: auto;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-right: auto;
+	padding-bottom: 15px;
+}
+span.bold{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 700;
+	}
+}
+@media only screen and (max-width: 1600px) {
+.logo{
+	float: left;
+	height: auto;
+	width: 11%;
+	margin-top: 20px;
+        margin-left: 20px;
+}
+}
+@media only screen and (max-width: 1440px) {
+.logo{
+	float: left;
+	height: auto;
+	width: 11%;
+	margin-top: 20px;
+}
+.telefono{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 15%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO2.fw.png);
+	background-repeat: repeat;
+}
+.domicilio{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 60%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+.facebook {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 15%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO2.fw.png);
+	background-repeat: repeat;
+}
+.mail {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 10%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+.orange {
+	font-family: 'Roboto', sans-serif;
+	color: #453525;
+	font-size: 0.9em;
+	float: none;
+	height: auto;
+	width: 30%;
+	padding-top: 60px;
+	text-align: center;
+	margin-left: auto;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-right: auto;
+	padding-bottom: 15px;
+}	
+}
+@media only screen and (max-width: 1366px) {
+
+.botones {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width:16%;
+	height: 18px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	line-height: 1em;
+	font-weight: 300;
+}
+.logo{
+	float: left;
+	height: auto;
+	width: 14%;
+	margin-top: 20px;
+        margin-left: 20px;
+}
+.domicilio{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 60%;
+	padding-top: 12px;
+	padding-bottom: 8px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+}
+@media only screen and (max-width: 1280px) {
+
+
+}
+@media only screen and (max-width: 1136px) {
+.logo{
+	float: left;
+	height: auto;
+	width: 15%;
+	margin-top: 20px;
+        margin-left: 20px;
+}
+}
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 768px) {
+#header {
+	height: 180px;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-image: url(images/fondocafe2.png);
+	background-repeat: repeat;
+	position: absolute;
+}	
+.logo2{
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 10px;
+	margin-left: 40%;
+}
+	#nav {
+	float: none;
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: none;
+}
+	#nav2 {
+	float: left;
+	height: 180px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+.iconnav2 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-left: 40%;
+	padding-top: 10px;
+	margin-right: 40%;
+	border: thin dashed#CBB59E;
+	font-size: 1em;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+.botones3 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 21%;
+	height: 16px;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 3%;
+	border: thin dashed #CBB59E;
+	line-height: 1em;
+}
+.botones4 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 21%;
+	height: 23px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 3%;
+	border: thin dashed #CBB59E;
+	line-height: 1em;
+}
+.botonesvermas {
+	height: 130px;
+	width: 94%;
+	float: left;
+	margin-top: 15px;
+	background-image: url(images/fondocafe2B.png);
+	background-repeat: repeat;
+	padding-left: 6%;
+}
+.telefono{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO2.fw.png);
+	background-repeat: repeat;
+}
+.domicilio{
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+.facebook {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO2.fw.png);
+	background-repeat: repeat;
+}
+.mail {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/FONDO1.fw.png);
+	background-repeat: repeat;
+}
+.orange {
+	font-family: 'Roboto', sans-serif;
+	color: #453525;
+	font-size: 0.9em;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+	margin-left: auto;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-right: auto;
+	padding-bottom: 15px;
+}	
+}
+@media only screen and (max-width: 600px) {
+.logo2{
+	float: left;
+	height: auto;
+        width: 30%;
+	margin-top: 10px;
+	margin-left: 35%;
+}
+}
+@media only screen and (max-width: 480px) {
+.iconnav2 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.8em;
+	float: left;
+	height: auto;
+	width: 30%;
+	margin-left: 35%;
+	padding-top: 5px;
+	margin-right: 35%;
+	border: thin dashed#CBB59E;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 5px;
+}	
+.botones3 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 21%;
+	height: 14px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 3%;
+	border: thin dashed #CBB59E;
+	line-height: 1em;
+}
+.botones4 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 21%;
+	height: 19px;
+	padding-top: 11px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 3%;
+	border: thin dashed #CBB59E;
+	line-height: 1em;
+}
+}
+@media only screen and (max-width: 360px) {
+#header {
+	height: 130px;
+	width: 100%;
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-image: url(images/fondocafe2C.png);
+	background-repeat: repeat;
+	position: absolute;
+}	
+.botonesvermas {
+	height: 240px;
+	width: 94%;
+	float: left;
+	margin-top: 0px;
+	background-image: url(images/fondocafe2C.png);
+	background-repeat: repeat;
+	padding-left: 6%;
+}
+.logo2{
+	float: left;
+	height: auto;
+        width: 40%;
+	margin-top: 10px;
+	margin-left: 30%;
+}
+.iconnav2 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.8em;
+	float: left;
+	height: auto;
+	width: 30%;
+	margin-left: 35%;
+	padding-top: 5px;
+	margin-right: 35%;
+	border: thin dashed#CBB59E;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 5px;
+}	
+.botones3 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 45%;
+	height: 14px;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 3%;
+	border: thin dashed #CBB59E;
+	line-height: 1em;
+}
+.botones4 {
+	font-family: 'Halant', serif;
+	color: #CBB59E;
+	font-size: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	width: 45%;
+	height: 19px;
+	padding-top: 11px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 3%;
+	border: thin dashed #CBB59E;
+	line-height: 1em;
+}
+.orange {
+	font-family: 'Roboto', sans-serif;
+	color: #453525;
+	font-size: 0.8em;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+	margin-left: auto;
+	padding-right: 0%;
+	padding-left: 0%;
+	margin-right: auto;
+	padding-bottom: 15px;
+}
+}

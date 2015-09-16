@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="description" content="Fabricantes de muebles en san luis potosí, recamáras infantiles, juveniles, comedores, mobiliario de oficina, decoración, carpintería residencial.">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700' rel='stylesheet' type='text/css'>
+<title>DADÚ MUEBLERÍA</title>
+<link href="estilosheader.css" rel="stylesheet" type="text/css">
+<link href="estilosubicacion.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#vermenu").click(function(event){
+event.preventDefault();
+$("#menuoculto").show(450);
+$("#cerrarmenu").show(450);
+$("#vermenu").hide(450);
+})
+
+$("#cerrarmenu").click(function(event){
+event.preventDefault();
+$("#vermenu").show(450);
+$("#cerrarmenu").hide(450);
+$("#menuoculto").hide(450);
+})	
+<!--                 Codido para abrir ventana secundaria                               -->	
+$("#vermenu_catalogo").click(function(event){
+$("#qwerty_catalogo").show(0);
+$("#cerrar_catalogo").show(0);
+$("#vermenu_catalogo").hide(0);
+})
+
+$("#cerrar_catalogo").click(function(event){
+$("#qwerty_catalogo").hide(0);
+$("#vermenu_catalogo").show(0);
+$("#cerrar_catalogo").hide(0);
+})
+
+$("#vermenu_catalogo_res").click(function(event){
+$("#qwerty_catalogo_res").show(0);
+$("#cerrar_catalogo_res").show(0);
+$("#vermenu_catalogo_res").hide(0);
+})
+
+$("#cerrar_catalogo_res").click(function(event){
+$("#qwerty_catalogo_res").hide(0);
+$("#vermenu_catalogo_res").show(0);
+$("#cerrar_catalogo_res").hide(0);
+})
+<!---------------------------------------------------------------------------------------->
+});
+</script>
+
+</head>
+<style type="text/css">
+	    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}   
+	img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+</style>
+<body>
+<header id="header">
+<nav id="nav">
+<div class="logo"><img src="images/logodadu.png" width="184%" height="auto" alt="logodadu2"></div>
+<a href="index.html"><div class="botones"><button class="b_menu">INICIO</button></div></a>
+<a href="somosfabricantes.html"><div class="botones"><button class="b_menu">SOMOS FABRICANTES</button></div></a>
+
+<div class="botones" >
+  <button id="vermenu_catalogo">CATALOGO</button><button id="cerrar_catalogo">CATALOGO</button>
+  <div id="qwerty_catalogo" style="height:auto;margin-top:10px;background-image:url('images/fondocafe.png');display:none;background-position: bottom;padding:0px 0px 20px 0px;">
+  <ul>
+     <a href="lineainfantil.html"><li>LINEA INFANTIL / CUNA</li></a>
+     <a href="lineajuvenil.html"><li>LINEA JUVENIL</li></a>
+     <a href="linearesidencial.html"><li>LINEA RESIDENCIAL</li></a>
+     <a href="decoracion.html"><li>DECORACION</li>
+  </ul> 
+     <div style="background-color:red; padding:3px 0px 3px 0px;display:none;" id="cerrar_catalogo">Cerrar</div> 
+ </div>
+  </div>
+<a href="ubicacion.html"><div class="botones"><button class="b_menu">UBICACION TIENDA</button></div></a>
+<a href="contacto.html"><div class="botones"><button class="b_menu">COTIZACION</button></div></a>
+</nav>
+
+<nav id="nav2">
+<div class="logo2"><img src="images/logodadu.png" width="100%" height="auto" alt="logodadu2"></div>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="vermenu">MENU</div></a>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="cerrarmenu" style="display:none;">CERRAR MENU</div></a>
+<div class="botonesvermas" id="menuoculto" style="display:none;">
+<a href="index.html"><div class="botones3"><button class="b_menu">INICIO</button></div></a>
+<div class="botones3">
+<button id="vermenu_catalogo_res">CATALOGO</button><button id="cerrar_catalogo_res">CATALOGO</button>
+
+  <div id="qwerty_catalogo_res" style="margin-top:10px;background-image:url(images/fondocafe2B.png);display:none;border: thin dashed #CBB59E;position:absolute;padding:20px 20px 20px 20px;">
+  <ul>
+     <a href="lineainfantil.html"><li>LINEA INFANTIL / CUNA</li></a>
+     <a href="lineajuvenil.html"><li>LINEA JUVENIL</li></a>
+     <a href="linearesidencial.html"><li>LINEA RESIDENCIAL</li></a>
+     <a href="decoracion.html"><li>DECORACION</li>
+  </ul> 
+     <div style="background-color:red; padding:3px 0px 3px 0px;display:none;" id="cerrar_catalogo">Cerrar</div>
+ </div>
+</div>
+<a href="somosfabricantes.html"><div class="botones3"><button class="b_menu">SOMOS</button></div></a>
+<a href="decoracion.html"><div class="botones3"><button class="b_menu">DECORACION</button></div></a>
+<a href="ubicacion.html"><div class="botones3"><button class="b_menu">UBICACION</button></div></a>
+<a href="contacto.html"><div class="botones3"><button class="b_menu">COTIZACION</button></div></a>
+</div>
+</nav>
+</header>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<div class="banner_line">MAPA DE UBICACIÓN</div>
+<div class="banner_dir">
+Himno Nacional No. 2005-E Fracc. Tangamanga Plaza Del Árbol. Entre Tatanacho Y Manuel J. Clouthier, San Luis Potosí,S.L.P. México.
+</div>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<div class="mapa" >
+<iframe style="width:100%; height:100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps?cbll=22.141156,-100.994846&amp;layer=c&amp;panoid=K2A-LVRiat8s0LQZNNkuug&amp;cbp=12,107.03,,0,6.94&amp;ie=UTF8&amp;ll=22.12222,-100.974312&amp;spn=0.198144,0.32341&amp;t=h&amp;z=12&amp;source=embed&amp;output=svembed"></iframe><br /><small><a href="https://maps.google.com.mx/maps?cbll=22.141156,-100.994846&amp;layer=c&amp;panoid=K2A-LVRiat8s0LQZNNkuug&amp;cbp=12,107.03,,0,6.94&amp;ie=UTF8&amp;ll=22.12222,-100.974312&amp;spn=0.198144,0.32341&amp;t=h&amp;z=12&amp;source=embed" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
+</div>
+<footer>
+<div class="telefono">TELÉFONO( 444 ) 811 2228</div>
+<div class="domicilio">HIMNO NACIONAL NO. 2005 - E FRACC. TANGAMANGA PLAZA DEL ÁRBOL, ENTRE TATANACHO Y MANUEL J. CLOUTHIER, SAN LUIS POTOSÍ, S.L.P. MÉXICO</div>
+<div class="facebook">VISITAR EN FACEBOOK</div>
+<div class="mail">ENVIAR UN MAIL</div>
+<div class="orange">Web designed by www.orangeboutiquecreativa.com </div>
+</footer>
+</body>
+</head>

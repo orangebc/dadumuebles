@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="description" content="Fabricantes de muebles en san luis potosí, recamáras infantiles, juveniles, comedores, mobiliario de oficina, decoración, carpintería residencial.">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700' rel='stylesheet' type='text/css'>
+<title>DADÚ MUEBLERÍA</title>
+<link href="estilosindex.css" rel="stylesheet" type="text/css">
+<link href="estilosheader.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#vermenu").click(function(event){
+event.preventDefault();
+$("#menuoculto").show(450);
+$("#cerrarmenu").show(450);
+$("#vermenu").hide(450);
+})
+
+$("#cerrarmenu").click(function(event){
+event.preventDefault();
+$("#vermenu").show(450);
+$("#cerrarmenu").hide(450);
+$("#menuoculto").hide(450);
+})	
+<!--                 Codido para abrir ventana secundaria                               -->	
+$("#vermenu_catalogo").click(function(event){
+$("#qwerty_catalogo").show(0);
+$("#cerrar_catalogo").show(0);
+$("#vermenu_catalogo").hide(0);
+})
+
+$("#cerrar_catalogo").click(function(event){
+$("#qwerty_catalogo").hide(0);
+$("#vermenu_catalogo").show(0);
+$("#cerrar_catalogo").hide(0);
+})
+
+$("#vermenu_catalogo_res").click(function(event){
+$("#qwerty_catalogo_res").show(0);
+$("#cerrar_catalogo_res").show(0);
+$("#vermenu_catalogo_res").hide(0);
+})
+
+$("#cerrar_catalogo_res").click(function(event){
+$("#qwerty_catalogo_res").hide(0);
+$("#vermenu_catalogo_res").show(0);
+$("#cerrar_catalogo_res").hide(0);
+})
+<!---------------------------------------------------------------------------------------->
+});
+</script>
+
+</head>
+<style type="text/css">
+	    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}   
+    body {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+	background-image: url(images/body.jpg);
+	background-repeat: repeat;
+}
+	img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+        
+}
+
+</style>
+<body>
+<header id="header">
+<nav id="nav">
+<div class="logo"><img src="images/logodadu.png" width="184%" height="auto" alt="logodadu2"></div>
+<a href="index.html"><div class="botones"><button class="b_menu">INICIO</button></div></a>
+<a href="somosfabricantes.html"><div class="botones"><button class="b_menu">SOMOS FABRICANTES</button></div></a>
+
+<div class="botones" >
+  <button id="vermenu_catalogo">CATALOGO</button><button id="cerrar_catalogo">CATALOGO</button>
+  <div id="qwerty_catalogo" style="height:auto;margin-top:10px;background-image:url('images/fondocafe.png');display:none;background-position: bottom;padding:0px 0px 20px 0px;">
+  <ul>
+     <a href="lineainfantil.html"><li>LINEA INFANTIL / CUNA</li></a>
+     <a href="lineajuvenil.html"><li>LINEA JUVENIL</li></a>
+     <a href="linearesidencial.html"><li>LINEA RESIDENCIAL</li></a>
+     <a href="decoracion.html"><li>DECORACION</li>
+  </ul> 
+     <div style="background-color:red; padding:3px 0px 3px 0px;display:none;" id="cerrar_catalogo">Cerrar</div> 
+ </div>
+  </div>
+<a href="ubicacion.html"><div class="botones"><button class="b_menu">UBICACION TIENDA</button></div></a>
+<a href="contacto.html"><div class="botones"><button class="b_menu">COTIZACION</button></div></a>
+</nav>
+
+<nav id="nav2">
+<div class="logo2"><img src="images/logodadu.png" width="100%" height="auto" alt="logodadu2"></div>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="vermenu">MENU</div></a>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="cerrarmenu" style="display:none;">CERRAR MENU</div></a>
+<div class="botonesvermas" id="menuoculto" style="display:none;">
+<a href="index.html"><div class="botones3"><button class="b_menu">INICIO</button></div></a>
+<div class="botones3">
+<button id="vermenu_catalogo_res">CATALOGO</button><button id="cerrar_catalogo_res">CATALOGO</button>
+
+  <div id="qwerty_catalogo_res" style="margin-top:10px;background-image:url(images/fondocafe2B.png);display:none;border: thin dashed #CBB59E;position:absolute;padding:20px 20px 20px 20px;">
+  <ul>
+     <a href="lineainfantil.html"><li>LINEA INFANTIL / CUNA</li></a>
+     <a href="lineajuvenil.html"><li>LINEA JUVENIL</li></a>
+     <a href="linearesidencial.html"><li>LINEA RESIDENCIAL</li></a>
+     <a href="decoracion.html"><li>DECORACION</li>
+  </ul> 
+     <div style="background-color:red; padding:3px 0px 3px 0px;display:none;" id="cerrar_catalogo">Cerrar</div>
+ </div>
+</div>
+<a href="somosfabricantes.html"><div class="botones3"><button class="b_menu">SOMOS</button></div></a>
+<a href="decoracion.html"><div class="botones3"><button class="b_menu">DECORACION</button></div></a>
+<a href="ubicacion.html"><div class="botones3"><button class="b_menu">UBICACION</button></div></a>
+<a href="contacto.html"><div class="botones3"><button class="b_menu">COTIZACION</button></div></a>
+</div>
+</nav>
+</header>
+<main>
+<div class="img1"></div>
+<div class="bullet">
+<h1>Bienvenido</h1>
+<p>En Dadú diseñamos y fabricamos el mobiliario que tengas en mente, <span>damos gusto a tus ideas,</span> decoramos tus espacios.
+También contamos con una amplia gama de diseños por catálogo en línea infantil, juvenil, para el hogar u oficina así como también productos decorativos que te permitan personalizar diversos espacios. <br> 
+</p>
+</div>
+<div class="img2"></div>
+</main>
+
+<div class="contnuevosprod">
+<h3>NUEVOS PRODUCTOS</h3>
+<div class="contproduc"><img src="images/muebles/cama-cuna-corral-bogota.png" width="100%" height="auto">
+<div class="contcaract">
+<div class="condatos">
+<div class="dato1">Cama Cuna Corral Bogotá</div>
+</div>
+</div>
+</div>
+
+<div class="contproduc"><img src="images/muebles/cocina-picasso.jpg" width="100%" height="auto">
+<div class="contcaract">
+<div class="condatos">
+<div class="dato1">Cocina Picasso</div>
+</div>
+</div>
+</div>
+
+<div class="contproduc"><img src="images/muebles/recamara-juvenil-corazones.jpg" width="100%" height="auto">
+<div class="contcaract">
+<div class="condatos">
+<div class="dato1">Recámara Juvenil Corazones</div>
+</div>
+</div>
+</div>
+
+<div class="contproduc"><img src="images/muebles/recamara-matrimonial-danna.jpg" width="100%" height="auto">
+<div class="contcaract">
+<div class="condatos">
+<div class="dato1">Recámara Matrimonial Danna</div>
+</div>
+</div>
+</div>
+
+<div class="productos">
+<div class="produc1" id="rosa">RECÁMARAS INFANTILES<div class="clickver">Click ver catálogo</div></div>
+<div class="produc1" id="azul">RECÁMARAS JUVENILES<div class="clickver">Click ver catálogo</div></div>
+<div class="produc1" id="verde">COMEDORES | HOGAR<div class="clickver">Click ver catálogo</div></div>
+<div class="produc1" id="morado">DECORACIÓN<div class="clickver">Click ver catálogo</div></div>
+</div>
+</div>
+
+<div class="contacerca" >
+<h3>ACERCA DE NOSOTROS</h3>
+
+<div class="contizq" id="margin">
+<div class="iconsomos"><img src="images/iconinicio.png" width="100%" height="auto" alt="inicio"></div>
+<p class="enc">NUESTRO<br>COMIENZO</p>
+<p class="oculto">NUESTRO COMIENZO</p>
+<p class="oscuro">DADÚ, nace en Colombia como un proyecto de diseño donde la inquietud y el deseo de tener mejores alternativas en el diseño de muebles infantiles toman cuerpo y forma dando soluciones integrales a las necesidades de los niños en todas sus etapas.</p>
+</div>
+
+<div class="contizq">
+<div class="iconsomos"><img src="images/iconsomos.png" width="100%" height="auto" alt="somos"></div>
+<p class="enc">QUIENES<br>SOMOS</p>
+<p class="oculto">QUIENES SOMOS</p>
+<p class="oscuro">Ahora en México, DADÚ es una empresa especializada en diseño y fabricación de muebles con más de 5 años de experiencia ofreciendo alternativas en la transformación de espacios con personalidad, imagen, estética y principalmente, funcional.</p>
+</div>
+
+<div class="contizq">
+<div class="iconsomos"><img src="images/iconfilosofia.png" width="100%" height="auto" alt="filosofia"></div>
+<p class="enc">NUESTRA<br>FILOSOFÍA</p>
+<p class="oculto">NUESTRA FILOSOFÍA</p>
+<p class="oscuro">Ser una empresa de excelencia en nuestros procesos creativos, de manufactura, venta y posta-venta. Creemos firmemente en fabricar productos en los que hagamos que la inversión de nuestros clientes se vea bien recompensada con nuestra calidad.</p>
+</div>
+
+<div class="contizq">
+<div class="iconsomos"><img src="images/iconvalores.png" width="100%" height="auto" alt="valores"></div>
+<p class="enc">NUESTROS<br>VALORES</p>
+<p class="oculto">NUESTROS VALORES</p>
+<p class="oscuro">Nos definen valores como la pasión, el amor por nuestro trabajo, la búsqueda constante de la innovación a través del diseño y la manufactura con altos estándares de calidad. Esto nos permite ofrecer productos altamente competitivos y a buen costo.</p>
+</div>
+</div>
+
+<div class="contimagen">
+<h3 class="bco">DISEÑAMOS | CREAMOS | FABRICAMOS</h4>
+<h5>En DADÚ disfrutamos, nos apasionamos con cada etapa del proceso porque no vendemos muebles, vendemos una parte de nosotros en cada producto que entregamos,<span> amor y pasión son la escencia de nuestros muebles.</span></h5>
+</div>
+
+<footer>
+<div class="telefono">TELÉFONO( 444 ) 811 2228</div>
+<div class="domicilio">HIMNO NACIONAL NO. 2005 - E FRACC. TANGAMANGA PLAZA DEL ÁRBOL, ENTRE TATANACHO Y MANUEL J. CLOUTHIER, SAN LUIS POTOSÍ, S.L.P. MÉXICO</div>
+<div class="facebook">VISITAR EN FACEBOOK</div>
+<div class="mail">ENVIAR UN MAIL</div>
+<div class="orange">Web designed by www.orangeboutiquecreativa.com </div>
+</footer>
+
+</body>
+</html>

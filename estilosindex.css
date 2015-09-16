@@ -1,0 +1,1464 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font: 14px 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+@media only screen and (max-width: 2560px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 140px;
+	}
+.img1 {
+	float: left;
+	height: 420px;
+	width: 40%;
+	background-image: url(images/muebles/cama-cuna-corral-bogota.png);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.bullet {
+	float: left;
+	height: 405px;
+	width: 20%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 2.2em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+span{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 600;
+	}
+.img2 {
+	float: left;
+	height: 420px;
+	width: 40%;
+	background-image: url(images/muebles/cama-cuna-corral-odete.jpg);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.contnuevosprod {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 40px;
+	background-image: url(images/fondo2PNG.fw.png);
+	background-repeat: repeat;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: none;
+	height: auto;
+	width: 18%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contproduc {
+	float: left;
+	height: auto;
+	width: 25%;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.contcaract {
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.condatos {
+	float: left;
+	width: 58%;
+	font-weight: 400;
+	height: auto;
+	text-align: right;
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: thin dashed #412C1D;
+	margin-bottom: 40px;
+}
+.dato1 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: left;
+	width: 100%;
+	font-weight: 300;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-right-width: thin;
+	
+	border-right-color: #412C1D;
+}
+.dato2 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: left;
+	width: 47%;
+	font-weight: 700;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.productos {
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.produc1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	float: left;
+	height: auto;
+	width: 25%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/rosa.fw.png);
+	background-repeat: repeat;
+}
+.produc1#rosa {
+	background-image: url(images/rosa.fw.png);
+	background-repeat: repeat;
+}
+.produc1#azul {
+	background-image: url(images/azul.fw.png);
+	background-repeat: repeat;
+}
+.produc1#verde{
+	background-image: url(images/verde.fw.png);
+	background-repeat: repeat;
+}
+.produc1#morado{
+	background-image: url(images/morado.fw.png);
+	background-repeat: repeat;
+}
+.clickver {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: 300;
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	line-height: 1em;
+	padding-top: 5px;
+}
+.contacerca {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 40px;
+	background-image: url(images/body.jpg);
+	background-repeat: repeat;
+}
+.contizq {
+	float: left;
+	height: 320px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 7%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+p.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.contimagen {
+	float: left;
+	height: 600px;
+	width: 100%;
+	background-image: url(images/contimg.jpg);
+	background-repeat: no-repeat;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 300;
+	float: none;
+	width: 35%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 250px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 1680px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 125px;
+	}
+	h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 2.2em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	}
+
+}
+@media only screen and (max-width: 1600px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 80px;
+	}
+	.contizq {
+	float: left;
+	height: 320px;
+	width: 22%;
+	margin-left: 2%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 2.8%;
+}	
+}
+@media only screen and (max-width: 1440px) {
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 2.2em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 60px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}	
+.contizq {
+	float: left;
+	height: 320px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 7%;
+}	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: none;
+	height: auto;
+	width: 22%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+}
+@media only screen and (max-width: 1366px) {
+.bullet {
+	float: left;
+	height: 370px;
+	width: 40%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 2.2em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}	
+.img1 {
+	float: left;
+	height: 385px;
+	width: 30%;
+	background-image: url(images/muebles/cama-cuna-corral-bogota.png);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.img2 {
+	float: left;
+	height: 385px;
+	width: 30%;
+	background-image: url(images/muebles/cama-cuna-corral-odete.jpg);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.contizq {
+	float: left;
+	height: 320px;
+	width: 21%;
+	margin-left: 2%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 5%;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: 30%;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}	
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 240px;
+	color: #FFF;
+	margin-bottom: 20px;
+}	
+}
+@media only screen and (max-width: 1354px) {
+.condatos {
+	float: left;
+	width: 62%;
+	font-weight: 400;
+	height: auto;
+	text-align: right;
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: thin dashed #412C1D;
+	margin-bottom: 40px;
+}	
+.contizq {
+	float: left;
+	height: 320px;
+	width: 22%;
+	margin-left: 2%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 2.7%;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 220px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 300;
+	float: none;
+	width: 45%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media only screen and (max-width: 1280px) {
+.contizq {
+	float: left;
+	height: 350px;
+	width: 23%;
+	margin-left: 1.5%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 1.5%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+p.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #261A11;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 220px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 300;
+	float: none;
+	width: 45%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}	
+}
+@media only screen and (max-width: 1136px) {
+.bullet {
+	float: left;
+	height: 300px;
+	width: 40%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.9em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+.img1 {
+	float: left;
+	height: 315px;
+	width: 30%;
+	background-image: url(images/muebles/cama-cuna-corral-bogota.png);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.img2 {
+	float: left;
+	height: 315px;
+	width: 30%;
+	background-image: url(images/muebles/cama-cuna-corral-odete.jpg);
+	background-repeat: no-repeat;
+        background-size: cover;
+}	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: 30%;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.condatos {
+	float: left;
+	width: 85%;
+	font-weight: 400;
+	height: auto;
+	text-align: right;
+	margin-top: 40px;
+	margin-left: 8%;
+	margin-right: 20%;
+	border: thin dashed #412C1D;
+	margin-bottom: 40px;
+}
+.dato1 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 0.9em;
+	float: left;
+	width: 100%;
+	font-weight: 300;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-right-width: thin;
+
+	border-right-color: #412C1D;
+}
+.dato2 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 0.9em;
+	float: left;
+	width: 47%;
+	font-weight: 700;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.produc1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	float: left;
+	height: auto;
+	width: 25%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/rosa.fw.png);
+	background-repeat: repeat;
+}
+.contizq {
+	float: left;
+	height: 310px;
+	width: 23.5%;
+	margin-left: 1%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 1%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+p.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #261A11;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.contimagen {
+	float: left;
+	height: 400px;
+	width: 100%;
+	background-image: url(images/contimg.jpg);
+	background-repeat: no-repeat;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 140px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: 300;
+	float: none;
+	width: 45%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media only screen and (max-width: 1024px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 100px;
+	}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.9em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 65px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+}	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: 30%;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}	
+.contizq {
+	float: left;
+	height: 360px;
+	width: 19%;
+	margin-left: 3%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 7%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+}
+@media only screen and (max-width: 940px){
+.contizq {
+	float: left;
+	height: 400px;
+	width: 19%;
+	margin-left: 3%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+}
+@media only screen and (max-width: 768px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 160px;
+	}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.9em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 55px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 10px;
+}	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: none;
+	height: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-left: 25%;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contproduc {
+	float: left;
+	height: auto;
+	width: 50%;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.condatos {
+	float: left;
+	width: 85%;
+	font-weight: 400;
+	height: auto;
+	text-align: right;
+	margin-top: 40px;
+	margin-left: 8%;
+	margin-right: 20%;
+	border: thin dashed #412C1D;
+	margin-bottom: 0px;
+}
+.productos {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 40px;
+}
+.produc1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 700;
+	float: left;
+	height: auto;
+	width: 50%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/rosa.fw.png);
+	background-repeat: repeat;
+}
+.contizq {
+	float: left;
+	height: auto;
+	width: 42%;
+	margin-left: 5%;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 5%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.contacerca {
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 40px;
+	background-image: url(images/body.jpg);
+	background-repeat: repeat;
+	padding-bottom: 40px;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 140px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: 300;
+	float: none;
+	width: 60%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media only screen and (max-width: 640px) {
+.bullet {
+	float: left;
+	height: 370px;
+	width: 40%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.9em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 75px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 10px;
+}
+.img1 {
+	float: left;
+	height: 385px;
+	width: 30%;
+	background-image: url(images/muebles/cama-cuna-corral-bogota.png);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.img2 {
+	float: left;
+	height: 385px;
+	width: 30%;
+	background-image: url(images/muebles/cama-cuna-corral-odete.jpg);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: none;
+	height: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: 300;
+	float: none;
+	width: 80%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media only screen and (max-width: 600px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 210px;
+	}	
+.bullet {
+	float: left;
+	height: 170px;
+	width: 100%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 7px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 10px;
+}
+.img1 {
+	float: left;
+	height: 200px;
+	width: 100%;
+	background-image: url(images/muebles/cama-cuna-corral-bogota.png);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.img2 {
+	float: left;
+	height: 200px;
+	width: 100%;
+	background-image: url(images/muebles/cama-cuna-corral-odete.jpg);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.contizq {
+	float: left;
+	height: auto;
+	width: 44%;
+	margin-left: 4%;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 4%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.contimagen {
+	float: left;
+	height: 230px;
+	width: 100%;
+	background-image: url(images/contimg.jpg);
+	background-repeat: no-repeat;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 55px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 540px) {
+.contizq {
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	border: thin dashed #412C1D;
+	margin-right: 5%;
+}
+.contizq#margin {
+	margin-left: 5%;
+}
+p.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #261A11;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 54%;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 80px;
+	display: none;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #261A11;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 54%;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 80px;
+	display: block;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.iconsomos {
+	float: left;
+	height: auto;
+	width: 25%;
+	margin-top: 30px;
+	margin-left: 8%;
+}	
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: none;
+	height: auto;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+}
+@media only screen and (max-width: 480px) {
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 2px;
+}	
+
+}
+@media only screen and (max-width: 360px) {
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	line-height: 1.7em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 2px;
+}	
+.bullet {
+	float: left;
+	height: 200px;
+	width: 100%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}
+.contproduc {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.condatos {
+	float: left;
+	width: 90%;
+	font-weight: 400;
+	height: auto;
+	text-align: right;
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: thin dashed #412C1D;
+	margin-bottom: 0px;
+}
+.produc1{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.0em;
+	font-weight: 700;
+	float: left;
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	line-height: 1em;
+	background-image: url(images/rosa.fw.png);
+	background-repeat: repeat;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	float: none;
+	height: auto;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contizq {
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	border: thin dashed #412C1D;
+	margin-right: 5%;
+}
+.contizq#margin {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+p.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #261A11;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0px;
+	padding-left: 0%;
+	margin-top: 30px;
+	display: block;	
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #261A11;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 54%;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 80px;
+	display: none;
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	font-weight: 300;
+	float: none;
+	width: 90%;
+	text-align: center;
+	line-height: 1.5em;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media only screen and (max-width: 320px) {
+main{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 190px;
+	}	
+.bullet {
+	float: left;
+	height: 220px;
+	width: 100%;
+	padding-top: 15px;
+	background-image: url(images/fondobienvenido.fw.png);
+	background-repeat: repeat;
+}	
+.img1 {
+	float: left;
+	height: 150px;
+	width: 100%;
+	background-image: url(images/muebles/cama-cuna-corral-bogota.png);
+	background-repeat: no-repeat;
+        background-size: cover;
+}
+.img2 {
+	float: left;
+	height: 150px;
+	width: 100%;
+	background-image: url(images/muebles/cama-cuna-corral-odete.jpg);
+	background-repeat: no-repeat;
+        background-size: cover;
+}	
+.contimagen {
+	float: left;
+	height: 230px;
+	width: 100%;
+	background-image: url(images/contimg.jpg);
+	background-repeat: no-repeat;
+}
+h3.bco {
+	border: thin dashed #FFFFFF;
+	margin-top: 30px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+}

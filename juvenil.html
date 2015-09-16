@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LINEA X</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="fuentes.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estilocategoriajuvenil.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estilosheader.css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$("#vermenu").click(function(event){
+event.preventDefault();
+$("#menuoculto").show(450);
+$("#cerrarmenu").show(450);
+$("#vermenu").hide(450);
+})
+
+$("#cerrarmenu").click(function(event){
+event.preventDefault();
+$("#vermenu").show(450);
+$("#cerrarmenu").hide(450);
+$("#menuoculto").hide(450);
+})	
+<!--                 Codido para abrir ventana secundaria                               -->	
+$("#vermenu_catalogo").click(function(event){
+$("#qwerty_catalogo").show(0);
+$("#cerrar_catalogo").show(0);
+$("#vermenu_catalogo").hide(0);
+})
+
+$("#cerrar_catalogo").click(function(event){
+$("#qwerty_catalogo").hide(0);
+$("#vermenu_catalogo").show(0);
+$("#cerrar_catalogo").hide(0);
+})
+
+$("#vermenu_catalogo_res").click(function(event){
+$("#qwerty_catalogo_res").show(0);
+$("#cerrar_catalogo_res").show(0);
+$("#vermenu_catalogo_res").hide(0);
+})
+
+$("#cerrar_catalogo_res").click(function(event){
+$("#qwerty_catalogo_res").hide(0);
+$("#vermenu_catalogo_res").show(0);
+$("#cerrar_catalogo_res").hide(0);
+})
+<!---------------------------------------------------------------------------------------->
+});
+</script>
+<style type="text/css">
+    body {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+        background-image:url(images/bg_rayas.jpg);
+}
+	img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+    a:link,a:active,a:visited,a:hover {
+	text-decoration: none;
+	color: #999;
+}
+</style>
+</head>
+<body>
+<header id="header">
+<nav id="nav">
+<div class="logo"><img src="images/logodadu.png" width="184%" height="auto" alt="logodadu2"></div>
+<a href="index.html"><div class="botones">INICIO</div></a>
+<a href="somos.html"><div class="botones">SOMOS FABRICANTES</div></a>
+
+<div class="botones" >
+  <button id="vermenu_catalogo">CATALOGO</button><button id="cerrar_catalogo">CATALOGO</button>
+  <div id="qwerty_catalogo" style="height:auto;margin-top:10px;background-image:url('images/fondocafe.png');display:none;background-position: bottom;padding:0px 0px 20px 0px;">
+  <ul>
+     <li>LINEA INFANTIL</li>
+     <li>LINEA JUVENIL</li>
+     <li>LINEA RESIDENCIAL</li>
+     <!--li id="cerrar_catalogo">CERRAR</li -->
+  </ul> 
+     <!--div style="background-color:red; padding:3px 0px 3px 0px;display:none;" id="cerrar_catalogo">Cerrar</div -->
+ </div>
+  </div>
+<a href="#"><div class="botones">DECORACIÓN</div></a>
+<a href="#"><div class="botones">UBICACIÓN TIENDA</div></a>
+<a href="#"><div class="botones">CONTACTO</div></a>
+</nav>
+
+<nav id="nav2">
+<div class="logo2"><img src="images/logodadu.png" width="100%" height="auto" alt="logodadu2"></div>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="vermenu">MENÚ</div></a>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="cerrarmenu" style="display:none;">CERRAR MENÚ</div></a>
+<div class="botonesvermas" id="menuoculto" style="display:none;">
+<a href="index.html"><div class="botones3">INICIO</div></a>
+<div class="botones3">
+<button id="vermenu_catalogo_res">CATALOGO</button><button id="cerrar_catalogo_res">CATALOGO</button>
+
+  <div id="qwerty_catalogo_res" style="margin-top:10px;background-image:url(images/fondocafe2B.png);display:none;border: thin dashed #CBB59E;position:absolute;padding:20px 20px 20px 20px;">
+  <ul>
+     <li>LINEA INFANTIL</li>
+     <li>LINEA JUVENIL</li>
+     <li>LINEA RESIDENCIAL</li>
+     <!--li id="cerrar_catalogo">CERRAR</li -->
+  </ul> 
+     <!--div style="background-color:red; padding:3px 0px 3px 0px;display:none;" id="cerrar_catalogo">Cerrar</div -->
+ </div>
+</div>
+<a href="somos.html"><div class="botones4">SOMOS<br>FABRICANTES</div></a>
+<a href="#"><div class="botones3">DECORACIÓN</div></a>
+<a href="#"><div class="botones3">UBICACIÓN</div></a>
+<a href="#"><div class="botones3">CONTACTO</div></a>
+</div>
+</nav>
+</header>
+<div class="banner"><img src="images/infantil/bullet_line.png" class="bullet"></div>
+<div class="banner_2"><div class="float_bullet"></div></div>
+
+<div class="rows">
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_1.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_2.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_3.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_4.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+</div>
+<div class="rows">
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_1.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_2.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_3.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+<div class="cols"><div class="image_col" style="background-image:url(images/infantil/i_4.png);"><div class="name">Nombre</div><div class="model">Modelo</div></div></div>
+</div>
+</body>
+</html>

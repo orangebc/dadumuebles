@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body {
+	font: 14px 'roboto_condensedlight', sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+    }
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+        }
+
+    p{
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	height: auto;
+     }
+@media only screen and (max-width: 1366px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 12%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 200px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+        background-size:100%;
+        background-position:center;
+        background-repeat: no-repeat;
+}
+.rows{
+        height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 5px 0px;
+}
+.cols{
+        height: 295px;
+	width: 24.78%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+}
+.image_col{
+        height: 195px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 25px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name,.model{
+        height: auto;
+	width: 39%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:200px 4% 0px 4%;
+        border:1px solid #000;
+        text-align:justify;
+        text-align: center;
+        border: thin dashed;
+        padding:5px 1% 5px 1%;
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 33%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 1280px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 12%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+
+}
+}
+@media only screen and (max-width: 1130px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 14%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+
+}
+}
+@media only screen and (max-width: 1024px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 16%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+
+}
+.float_bullet{
+	height: 295px;
+	width: 50%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 25%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 768px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 26%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:27%;
+}
+.banner_2{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+
+}
+.rows{
+        height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 335px 0px;
+}
+.cols{
+        height: 295px;
+	width: 49.78%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+}
+.image_col{
+        height: 195px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 25px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name,.model{
+        height: auto;
+	width: 39%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:200px 4% 0px 4%;
+        border:1px solid #000;
+        text-align:justify;
+        text-align: center;
+        border: thin dashed;
+        padding:5px 1% 5px 1%;
+}
+.float_bullet{
+	height: 295px;
+	width: 60%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 20%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 640px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 33%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:22%;
+}
+.banner_2{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+
+}
+.float_bullet{
+	height: 295px;
+	width: 70%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 15%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 600px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 33%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:20%;
+}
+.banner_2{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BANNER_JUVENIL.png);
+       
+
+}
+.float_bullet{
+	height: 295px;
+	width: 70%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 15%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 564px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 36%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin-bottom:10px
+
+}
+.bullet{
+        width:auto;
+        margin-left:17%;
+}
+}
+@media only screen and (max-width: 480px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 45%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:10%;
+}
+
+.float_bullet{
+	height: 295px;
+	width: 90%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 5%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+
+}
+@media only screen and (max-width: 360px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 46%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:99.4%;
+        margin-left:0%;
+}
+.rows{
+        height: 250px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 1000px 0px;
+}
+.cols{
+        height: 300px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+}
+.image_col{
+        height: 190px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 25px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name,.model{
+        height: auto;
+	width: 39%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:200px 4% 0px 4%;
+        border:1px solid #000;
+        text-align:justify;
+        text-align: center;
+        border: thin dashed;
+        padding:5px 1% 5px 1%;
+}
+.float_bullet{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-image:url(images/juvenil/BULLET_JUVENIL.png);
+        margin:0px 0px 0px 0px;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+.banner_2{
+height:200px;
+}
+}
+@media only screen and (max-width: 320px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 49%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:99.4%;
+        margin-left:0%;
+}
+.banner_2{
+height:150px;
+}
+}
+@media only screen and (max-width: 290px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 55%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:99.4%;
+        margin-left:0%;
+}
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="description" content="Fabricantes de muebles en san luis potosí, recamáras infantiles, juveniles, comedores, mobiliario de oficina, decoración, carpintería residencial.">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700' rel='stylesheet' type='text/css'>
+<title>DADÚ MUEBLERÍA</title>
+<link href="estilossomos.css" rel="stylesheet" type="text/css">
+<link href="estilosheader.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#vermenu").click(function(event){
+event.preventDefault();
+$("#menuoculto").show(600);
+$("#cerrarmenu").show(600);
+$("#vermenu").hide(600);
+})
+
+$("#cerrarmenu").click(function(event){
+event.preventDefault();
+$("#vermenu").show(600);
+$("#cerrarmenu").hide(600);
+$("#menuoculto").hide(600);
+}) 
+});</script>
+
+</head>
+<style type="text/css">
+	    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}   
+    body {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+	background-image: url(images/body.jpg);
+	background-repeat: repeat;
+}
+    a:link,a:active,a:visited,a:hover {
+	text-decoration: none;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+	img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+<body>
+<header id="header">
+<nav id="nav">
+<a href="index.html"><div class="botones">INICIO</div></a>
+<a href="somos.html"><div class="botones">SOMOS FABRICANTES</div></a>
+<a href="#"><div class="botones">LÍNEA INFANTIL</div></a>
+<a href="#"><div class="botones">LÍNEA JUVENIL</div></a>
+<div class="logo"><img src="images/logodadu.png" width="100%" height="auto" alt="logodadu2"></div>
+<a href="#"><div class="botones">LÍNEA RESIDENCIAL</div></a>
+<a href="#"><div class="botones">DECORACIÓN</div></a>
+<a href="#"><div class="botones">UBICACIÓN TIENDA</div></a>
+<a href="#"><div class="botones">CONTACTO</div></a>
+</nav>
+
+<nav id="nav2">
+<div class="logo2"><img src="images/logodadu.png" width="100%" height="auto" alt="logodadu2"></div>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="vermenu">Menú</div></a>
+<a href="#"id="btnmostrar"><div class="iconnav2" id="cerrarmenu" style="display:none;">Cerrar menú</div></a>
+<div class="botonesvermas" id="menuoculto" style="display:none;">
+<a href="index.html"><div class="botones3">Inicio</div></a>
+<a href="somos.html"><div class="botones4">Somos<br>Fabricantes</div></a>
+<a href="#"><div class="botones4">Línea<br>Infantil</div></a>
+<a href="#"><div class="botones4">Línea<br>Juvenil</div></a>
+<a href="#"><div class="botones4">Línea<br>Residencial</div></a>
+<a href="#"><div class="botones3">Decoración</div></a>
+<a href="#"><div class="botones3">Ubicación</div></a>
+<a href="#"><div class="botones3">Contacto</div></a>
+</div>
+</nav>
+</header>
+<main>
+<h1>SOMOS FABRICANTES</h1>
+</main>
+</body>
+</html>

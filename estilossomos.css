@@ -1,0 +1,1083 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+        }
+    bullet{overflow:hidden;}
+@media only screen and (max-width: 2568px){
+.banner_somos{
+	height: 369px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:6%;
+}
+.bullet_somos{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:45px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -10%;
+      overflow:hidden;
+      width:120%;
+      font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+.banner_line{
+      width:25%;
+      height:auto;
+      margin:20px 10px 20px 37.8%;
+      position:relative;
+      z-index: -1;
+      
+}
+.contacerca {
+	float: left;
+	height: 340px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 310px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 7%;
+}
+
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 225px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 7%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: 35px;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom:thin dashed #412C1D;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_line {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 22%;
+	margin-left:39%;
+        margin-top:25px;
+        margin-bottom:25px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 1660px) {
+.banner_somos{
+	height: 369px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:8%;
+}
+}
+@media only screen and (max-width: 1366px) {	
+.banner_somos{
+	height: 369px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:100%;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:8%;
+}
+.bullet_somos{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:45px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -10%;
+      overflow:hidden;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+.banner_line{
+      width:25%;
+      height:auto;
+      margin:20px 10px 20px 37.8%;
+      position:relative;
+      z-index: -1;
+      
+}
+.contacerca {
+	float: left;
+	height: 340px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 310px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 7%;
+}
+
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 225px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 7%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: 35px;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom:thin dashed #412C1D;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_line {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 22%;
+	margin-left:39%;
+        margin-top:25px;
+        margin-bottom:25px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 1280px) {
+.banner_somos{
+	height: 450px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:0%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 40%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:150px 0px 0px 30%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -10%;
+      overflow:hidden;
+      width:120%;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}	
+.contacerca {
+	float: left;
+	height: 365px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 335px;
+	width: 20%;
+	margin-left: 2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 7%;
+}
+}
+@media only screen and (max-width: 1130px) {
+.banner_somos{
+	height: 420px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:0%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 40%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:160px 0px 0px 30%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -10%;
+      overflow:hidden;
+      width:120%;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+
+}
+@media only screen and (max-width: 1024px) {	
+.banner_somos{
+	height: 435px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:0%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 40%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:150px 0px 0px 30%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -10%;
+      overflow:hidden;
+      width:120%;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+}
+@media only screen and (max-width: 840px) {
+.banner_somos{
+	height: 400px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:.5%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 40%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:150px 0px 0px 30%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -15%;
+      overflow:hidden;
+      width:130%;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+.contacerca {
+	float: left;
+	height: 680px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 310px;
+	width: 44%;
+        margin-left:3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 3%;
+}
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 450px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 44%;
+	margin-left: 3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 3%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: 35px;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom:thin dashed #412C1D;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_line {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 45%;
+	margin-left:28%;
+        margin-top:25px;
+        margin-bottom:25px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 768px) {
+.banner_somos{
+	height: 450px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:7.8%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 60%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:150px 0px 0px 20%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -15%;
+      overflow:hidden;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+      
+}
+.contacerca {
+	float: left;
+	height: 680px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 310px;
+	width: 44%;
+        margin-left:3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 3%;
+}
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 450px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 44%;
+	margin-left: 3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 3%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: 35px;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom:thin dashed #412C1D;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_line {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 45%;
+	margin-left:28%;
+        margin-top:25px;
+        margin-bottom:25px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+
+@media only screen and (max-width: 640px) {
+}
+@media only screen and (max-width: 600px) {
+.banner_somos{
+	height: 450px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:7.8%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 60%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:150px 0px 0px 20%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -15%;
+      overflow:hidden;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+.contacerca {
+	float: left;
+	height: 720px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 330px;
+	width: 44%;
+        margin-left:3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 3%;
+}
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 450px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 44%;
+	margin-left: 3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 3%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: 35px;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom:thin dashed #412C1D;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_line {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 45%;
+	margin-left:28%;
+        margin-top:25px;
+        margin-bottom:25px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 480px) {
+.banner_somos{
+	height: 500px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:7.8%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 80%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:160px 0px 0px 10%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px 2%;
+      overflow:hidden;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+.contacerca {
+	float: left;
+	height: 1380px;
+	width: 100%;
+}
+.contizq {
+	float: left;
+	height: 310px;
+	width: 96%;
+        margin-left:2%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq#margin {
+	margin-left: 2%;
+}
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 450px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 44%;
+	margin-left: 3%;
+        margin-right:2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 3%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+.iconsomos {
+	float: none;
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+}
+.enc {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: 35px;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom:thin dashed #412C1D;
+}
+p.oculto {
+	font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.2em;
+	line-height: 1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	padding-right: 5%;
+	padding-bottom: 10px;
+	padding-left: 5%;
+	margin-top: 20px;
+	display: none;
+}
+p.oscuro {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1em;
+	line-height: 1.5em;
+	float: left;
+	height: auto;
+	width: 90%;
+	text-align: center;
+	font-weight: 300;
+	padding-right: 5%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_line {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 80%;
+	margin-left:10%;
+        margin-top:25px;
+        margin-bottom:25px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 360px) {
+.banner_somos{
+	height: 415px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+        background-image:url(images/somos/BANNER.png);
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        margin-top:7.8%;
+}
+.bullet_somos{
+	height: 165px;
+	width: 96%;
+	float: left;
+	position: relative;
+	bottom: 0px;
+        background-image:url(images/somos/BULLET.png);
+        margin:130px 0px 0px 2%;
+        background-size:100%;
+        background-repeat: no-repeat;
+
+}
+
+.parrafo_main{
+      text-align:center;
+      color:white;
+      margin:40% 2% 0px -15%;
+      overflow:hidden;
+      width:96%;
+      margin-left:2%;font-family: 'Roboto', sans-serif;font-size: 1em;font-weight: 300;
+}
+/*--------------------------------------------------------------------------------fila corta--------------------------------------------*/
+.contacerca_short {
+	float: left;
+	height: 900px;
+	width: 100%;
+}
+.contizq_short {
+	float: left;
+	height: 180px;
+	width: 96%;
+	margin-left: 2%;
+        margin-right:0%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: thin dashed #412C1D;
+}
+.contizq_short#margin {
+	margin-left: 2%;
+}
+/*------------------------------------------------------------------------------------FIN--------------------------------------------*/
+}
+@media only screen and (max-width: 290px) {
+}

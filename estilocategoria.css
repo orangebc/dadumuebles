@@ -1,0 +1,680 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body {
+	text-decoration: none;
+	margin: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+    }
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+        }
+
+    p{
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 0.9em;
+	color: #000;
+	height: auto;
+     }
+@media only screen and (max-width: 2568px) {
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 12%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 250px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-position:center;
+        margin-top:7%;
+}
+.rows{
+        height: 470px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 60px 0px;
+}
+.cols{
+        height: 210px;
+	width: 50%;
+	float: left;
+	position: relative;
+	z-index: -1;
+}
+.image_col{
+        height: 390px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 0px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name{ 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #412C1D;
+        padding-top: 10px;
+	padding-bottom: 10px;
+        height: auto;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:440px 33% 0px 33%;
+        text-align: center;
+        border: thin dashed;
+        
+}
+.float_bullet{
+	height: 320px;
+	width: 20%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+       
+        margin:0px 0px 0px 40%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 1900px){
+.banner_2{margin-top:7%;height:250px;}
+}
+@media only screen and (max-width: 1660px){
+.banner_2{margin-top:7%;height:250px;}
+}
+@media only screen and (max-width: 1440px){
+.banner_2{margin-top:10.2%;height:290px;}
+}
+@media only screen and (max-width: 1366px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 12%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 200px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        background-position:center;
+        margin-top:10%;
+}
+.rows{
+        height: 470px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 0px 0px;
+}
+.cols{
+        height: 210px;
+	width: 50%;
+	float: left;
+	position: relative;
+	z-index: -1;
+}
+.image_col{
+        height: 390px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 25px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name{ 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #412C1D;
+        padding-top: 10px;
+	padding-bottom: 10px;
+        height: auto;
+	width: 40%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:410px 28% 0px 28%;
+        text-align: center;
+        border: thin dashed;
+        
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 1280px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 12%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 200px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+       
+        margin-top:11%;
+
+}
+}
+@media only screen and (max-width: 1136px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 14%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 200px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+      
+        margin-top:11%;
+}
+}
+@media only screen and (max-width: 1024px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 16%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:34%;
+}
+.banner_2{
+	height: 180px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin-top:14%;
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+       
+        margin:0px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+.name{ 
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #412C1D;
+        padding-top: 10px;
+	padding-bottom: 10px;
+        height: auto;
+	width: 60%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:410px 18% 0px 18%;
+        text-align: center;
+        border: thin dashed;
+        
+}
+}
+@media only screen and (max-width: 800px) {
+.banner_2{
+	height: 130px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin-top:18%;
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin:0px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 768px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 26%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:27%;
+}
+.banner_2{
+	height: 110px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin-top:25%;
+}
+.rows{
+        height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 0px 0px;
+}
+.cols{
+        height: 295px;
+	width: 49.78%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+}
+.image_col{
+        height: 195px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 25px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #412C1D;
+        padding-top: 10px;
+	padding-bottom: 10px;
+        height: auto;
+	width: 60%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:220px 18% 0px 18%;
+        text-align: center;
+        border: thin dashed;
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin:0px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 640px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 33%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:22%;
+}
+.banner_2{
+	height: 100px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+       
+        margin-top:30%;
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin:0px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 600px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 33%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:auto;
+        margin-left:20%;
+}
+.banner_2{
+	height: 100px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin-top:33%;
+
+}
+.float_bullet{
+	height: 295px;
+	width: 30%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin:0px 0px 0px 35%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+}
+@media only screen and (max-width: 564px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 36%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin-bottom:10px
+
+}
+.bullet{
+        width:auto;
+        margin-left:17%;
+}
+}
+@media only screen and (max-width: 480px) {	
+.banner_2{
+	height: 200px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+       
+        margin-top:38%;
+
+}
+.bullet{
+        width:auto;
+        margin-left:10%;
+}
+
+.float_bullet{
+	height: 295px;
+	width: 90%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        
+        margin:0px 0px 0px 5%;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+
+}
+@media only screen and (max-width: 360px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 46%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:99.4%;
+        margin-left:0%;
+}
+.rows{
+        height: 250px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 340px 0px;
+}
+.cols{
+        height: 300px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+}
+.image_col{
+        height: 190px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:0px 0px 25px 0px;
+        background-size:cover;
+        background-position:center;
+
+}
+.name{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #412C1D;
+        padding-top: 10px;
+	padding-bottom: 10px;
+        height: auto;
+	width: 60%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+        margin:220px 18% 0px 18%;
+        text-align: center;
+        border: thin dashed;
+
+}
+.float_bullet{
+	height: 295px;
+	width: 100%;
+	float: left;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+     
+        margin:0px 0px 0px 0px;
+        background-size:100%;
+        background-repeat: no-repeat;
+}
+.banner_2{
+height:200px;
+margin-top:40%;
+}
+}
+@media only screen and (max-width: 320px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 80%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+}
+.bullet{
+        width:99.4%;
+        margin-left:0%;
+}
+.banner_2{
+height:150px;
+margin-top:50%;
+}
+}
+@media only screen and (max-width: 290px) {	
+.banner{
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-top: 70%;
+	position: relative;
+	z-index: -1;
+	bottom: 0px;
+
+}
+.bullet{
+        width:99.4%;
+        margin-left:0%;
+}
+
+}
+
+/*
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+        padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.9em;
+	float: left;
+	width: 100%;
+	font-weight: 300;
+	height: auto;
+	
+	text-align: center;
+	border-right-width: thin;
+
+	border-right-color: #412C1D;
+*/

@@ -1,0 +1,343 @@
+.mapa {
+        
+	float: left;
+	text-decoration: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+   body {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+        background-image:url(images/bg_rayas.jpg);
+}
+@media only screen and (max-width: 2568px) {
+.mapa{width: 99.5%;height:600px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 40%;
+	margin-left:30%;
+        margin-top:170px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+@media only screen and (max-width: 1366px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 40%;
+	margin-left:30%;
+        margin-top:170px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-left:30%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 1024px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 40%;
+	margin-left:30%;
+        margin-top:170px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-left:30%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 860px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 40%;
+	margin-left:30%;
+        margin-top:170px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-left:30%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 768px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 90%;
+	margin-left:5%;
+        margin-top:220px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left:5%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 640px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 90%;
+	margin-left:5%;
+        margin-top:220px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left:5%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 587px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 90%;
+	margin-left:5%;
+        margin-top:230px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left:5%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 480px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 90%;
+	margin-left:5%;
+        margin-top:220px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left:5%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
+@media only screen and (max-width: 360px) {
+.mapa{width: 99.5%;height:400px;margin-top:0;}
+.gmap{height:100%;width:100%;}
+.banner_line {
+        font-family: 'Holtwood One SC', serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: 25px;
+	width: 90%;
+	margin-left:5%;
+        margin-top:180px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+.banner_dir {
+	font-family: 'Roboto', sans-serif;
+	color: #412C1D;
+	font-size: 1.1em;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-left:5%;
+        margin-top:-10px;
+        margin-bottom:27px;
+	text-align: center;
+	font-weight: 300;
+	border: thin dashed #412C1D;
+	padding-top: 15px;
+	padding-bottom: 15px;
+        z-index:-1;
+}
+}
